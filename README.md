@@ -7,13 +7,5 @@ Brainlier unlocks questions to be viewable on Brainly without having to clear yo
 
 ‎
 
-‎
-
-‎
-
-‎
-
-‎
-
 
 ![](https://raw.githubusercontent.com/Databones/Brainlier/main/IER.png)
