@@ -2,7 +2,7 @@
 // @name         Brainlier
 // @icon         https://raw.githubusercontent.com/Databones/Brainlier/main/IER.png
 // @version      1.0
-// @description  Removes the locked Brainly questions.
+// @description  Unlocks the locked Brainly questions.
 // @author       Databones
 // @match        *://brainly.in/*
 // @match        *://brainly.com/*
