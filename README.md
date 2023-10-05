@@ -1,6 +1,6 @@
 # How do you install Brainlier? 📜
 1. Install the script managing extension [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo).
-2. Install the Brainlier script [here](https://github.com/Databones/Edgespoit/raw/main/Edgesploit.user.js).
+2. Install the Brainlier script [here](https://github.com/Databones/Brainlier/raw/main/Brainlier.user.js).
 
 
 # What does Brainlier do? 🤔
