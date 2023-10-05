@@ -1,5 +1,6 @@
 // ==UserScript==
 // @name         Brainlier
+// @icon         https://raw.githubusercontent.com/Databones/Brainlier/main/IER.png
 // @version      1.0
 // @description  Removes the locked Brainly questions.
 // @author       Databones
