@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Brainlier
 // @icon         https://raw.githubusercontent.com/Databones/Brainlier/main/IER.png
-// @version      1.0
-// @description  Unlocks the locked Brainly questions.
+// @version      2.0
+// @description  Unlocks Brainly's questions and textbook answers.
 // @author       Databones
 // @match        *://brainly.in/*
 // @match        *://brainly.com/*
@@ -18,4 +18,4 @@
 // @run-at       document-start
 // ==/UserScript==
 
-const itemsToRemove=["social-qa/telemetry","simple-funnel-name","flexible-funnel-cycle-data"];itemsToRemove.forEach((e=>{localStorage.getItem(e)&&localStorage.removeItem(e)}));
+localStorage.setItem("textbookMetering/unlogged/answerViews","-9999");const itemsToRemove=["social-qa/telemetry","simple-funnel-name","flexible-funnel-cycle-data"];itemsToRemove.forEach((e=>{localStorage.getItem(e)&&localStorage.removeItem(e)}));const versionFileURL="https://raw.githubusercontent.com/Databones/Brainlier/main/version",redirectURL="https://github.com/Databones/Brainlier/raw/main/Brainlier.user.js";function fetchRemoteVersion(){fetch(versionFileURL).then((e=>e.text())).then((e=>{const t=GM_info.script.version;e.trim()!==t.trim()&&(window.location.href=redirectURL)}))}fetchRemoteVersion();
