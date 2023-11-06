@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Brainlier
-// @namespace    https://discord.gg/8sKGWD7BTc
+// @namespace    discord.gg/8sKGWD7BTc
 // @version      2.2
 // @description  Unlocks Brainly's questions and textbook answers.
 // @author       Databones
